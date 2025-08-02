@@ -16,8 +16,6 @@ env/
 *.pot
 *.pyc
 db.sqlite3
-media/
-staticfiles/
 
 # Secrets and config
 .env
@@ -25,10 +23,6 @@ staticfiles/
 *.key
 *.crt
 *.pem
-
-# Docker
-docker-compose.override.yml
-.dockerignore
 
 # VS Code
 .vscode/
